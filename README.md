@@ -32,3 +32,17 @@ pip freeze > requirements.txt
 --- 
 ## In Case of Failure
 If you fail to do the setup by yourself, then please revisit the previous repositories where you have done the setup and follow those steps.
+
+
+To start we need:
+    pyenv local 3.11.3
+    python -m venv .venv_eda_project
+    source .venv_eda_project/bin/activate
+    pip install --upgrade pip
+    pip install numpy 
+    pip install seaborn 
+    pip install pandas
+    pip install jupyterlab 
+
+
+
